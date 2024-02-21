@@ -24,15 +24,15 @@ header {
   width: 100%;
   background-color: #003a63;
   color: aqua;
-  padding: 10px; /* You can adjust the padding as needed */
-  box-sizing: border-box; /* Ensures padding is included in the width */
+  padding: 10px; 
+  box-sizing: border-box; 
   display: flex;
-  justify-content: space-between; /* Aligns items to the start and end of the container */
-  align-items: center; /* Vertically center items in the container */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 nav {
-  text-align: right; /* Aligns the li elements to the right */
+  text-align: right; 
 }
 
 nav ul {
@@ -43,7 +43,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin-left: 20px; /* Adjust the margin if needed */
+  margin-left: 20px; 
 }
 
 nav a {
