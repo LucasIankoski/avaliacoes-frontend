@@ -4,7 +4,6 @@
       <div class="cards-container">
         <div v-for="turma in turmas" :key="turma.id" class="card">
           <p>{{ turma.codigo }}</p>
-          <!-- Outras informações da turma podem ser exibidas aqui -->
         </div>
       </div>
     </div>
@@ -27,7 +26,7 @@
   </script>
   
   <style scoped>
-  /* Estilize seus cards conforme necessário */
+  
   .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -41,9 +40,9 @@
     border: 1px solid #003a63;
     border-radius: 8px;
     color: hsl(0, 0%, 100%);
-    padding: 15px; /* Ajuste o padding para um visual mais espaçoso */
-    width: 150px; /* Ajuste a largura conforme necessário */
-    height: 70px; /* Ajuste a altura conforme necessário */
+    padding: 15px; 
+    width: 150px; 
+    height: 70px; 
     transition: background-color 0.3s ease;
     font-size: 20px;
     text-align: center;
