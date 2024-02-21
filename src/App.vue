@@ -1,12 +1,13 @@
 <template>
   <div>
     <Header />
-    <!-- Other content of your component goes here -->
+    <Turmas />
   </div>
 </template>
 
 <script setup>
 import Header from './components/Header.vue'
+import Turmas from './components/Turmas.vue'
 </script>
 
 <style scoped>
