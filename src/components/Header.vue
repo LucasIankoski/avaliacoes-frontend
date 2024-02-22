@@ -3,7 +3,7 @@
     <img src="https://social.redemarista.org.br/colegio/eja-vettorello/SiteAssets/marcas_maristas.png" alt="Maristas Logo" class="logo"/>
     <nav>
       <ul>
-        <li><a href="/home">Inicio</a></li>
+        <li><a href="/">Inicio</a></li>
         <li><a href="/home">Área do professor</a></li>     
       </ul>
     </nav>
