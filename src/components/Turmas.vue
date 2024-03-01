@@ -38,7 +38,7 @@ onMounted(async () => {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 40px;
-  margin-left: 20px; /* Ajuste para margem à esquerda */
+  margin-left: 20px; 
   max-width: 600px;
 }
 
@@ -68,17 +68,17 @@ onMounted(async () => {
   color: #003a63;
 }
 
-/* Estilo para remover sublinhado do texto dentro do router-link */
+
 .router-link {
   text-decoration: none;
   color: inherit;
 }
 
-/* Estilo para garantir que a mensagem do H2 seja exibida */
+
 .titulo {
   font-style: italic;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400;
+  font-family: sans-serif;
+  font-weight: 550;
   color: #011f34;
   font-size: 30px;
   text-align: left;

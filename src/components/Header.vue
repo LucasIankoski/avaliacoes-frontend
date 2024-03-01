@@ -52,7 +52,7 @@ nav a {
 }
 
 .logo {
-  max-height: 40px; /* Set a maximum height for the logo */
-  margin-right: 20px; /* Adjust the margin if needed */
+  max-height: 40px; 
+  margin-right: 20px; 
 }
 </style>
