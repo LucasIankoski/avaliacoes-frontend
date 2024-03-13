@@ -32,7 +32,7 @@ const $route = useRoute();
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`http://localhost:8081/componente?codigoTurma=${$route.params.codigoTurma}`);
+    const response = await axios.get(`https://avaliacoes-or8s.onrender.com/componente?codigoTurma=${$route.params.codigoTurma}`);
     componentes.value = response.data;
   } catch (error) {
     console.error('Erro ao carregar componentes:', error);

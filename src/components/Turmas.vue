@@ -24,7 +24,7 @@ const turmas = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await axios.get('http://localhost:8081/turma');
+    const response = await axios.get('https://avaliacoes-or8s.onrender.com/turma');
     turmas.value = response.data;
   } catch (error) {
     console.error('Erro ao carregar turmas:', error);

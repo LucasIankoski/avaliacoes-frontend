@@ -21,7 +21,7 @@ const avaliacoes = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`http://localhost:8081/avaliacao`, {
+    const response = await axios.get(`https://avaliacoes-or8s.onrender.com/avaliacao`, {
       params: {
         turma: route.params.codigoTurma,
         componente: route.params.descricaoComponente,
