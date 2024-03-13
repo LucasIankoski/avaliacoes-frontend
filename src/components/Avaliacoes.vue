@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="titulo">Avaliações</h2>
+    <h2 class="titulo">Atividades</h2>
     <div class="cards-container">
       <div v-for="avaliacao in avaliacoes" :key="avaliacao.id">
         <div class="card" @click="abrirDetalhes(avaliacao.hyperlink)">
