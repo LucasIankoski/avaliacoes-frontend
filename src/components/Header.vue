@@ -4,7 +4,8 @@
     <nav>
       <ul>
         <li><a href="/">Inicio</a></li>
-        <li><a href="/home">Área do professor</a></li>     
+        <!-- Modifique aqui, adicionando @click.prevent="showUnderDevelopmentMessage" -->
+        <li><a href="/home" @click.prevent="showUnderDevelopmentMessage">Área do professor</a></li>     
       </ul>
     </nav>
   </header>
@@ -12,9 +13,16 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  methods: {
+    showUnderDevelopmentMessage() {
+      // Exibe um alerta informando que a área está em desenvolvimento
+      alert('Esta área ainda está em desenvolvimento.');
+    }
+  }
 }
 </script>
+
 
 <style scoped>
 header {
