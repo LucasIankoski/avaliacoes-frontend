@@ -1,15 +1,13 @@
 <template>
   <div>
     <Header />
-    <router-view />
+    <router-view class="main-content" />
     <Footer />
   </div>
 </template>
 
 <script setup>
-name: 'App'
 import Header from './components/Header.vue'
-import Turmas from './components/Turmas.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -19,6 +17,7 @@ body {
   padding: 0;
 }
 
-
-
+.main-content {
+  margin-bottom: 60px; 
+}
 </style>

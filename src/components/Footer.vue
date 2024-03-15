@@ -3,7 +3,7 @@
       <p>Desenvolvido por <a href="https://www.linkedin.com/in/lucas-ciankoski/" class="custom-link">Lucas Iankoski</a></p>
       <p>&copy; 2024 - Versão 1.0.1</p>
     </footer>
-</template>
+  </template>
   
   <script>
   export default {
@@ -21,7 +21,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 40%;
+    z-index: 100; 
   }
   
   .custom-link {
@@ -33,5 +33,4 @@
     text-decoration: underline; 
   }
   </style>
-  
   
