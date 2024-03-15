@@ -16,21 +16,22 @@
     font-family: sans-serif;
     background-color: #f8f9fa;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100; 
+    z-index: 100;
+    font-size: 14px; 
   }
   
   .custom-link {
     color: inherit;
-    text-decoration: none; 
+    text-decoration: none;
   }
   
   .custom-link:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
   }
   </style>
   
