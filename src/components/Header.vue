@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 header {
+  font-family: sans-serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -49,6 +50,15 @@ nav li {
 nav a {
   color: aqua;
   text-decoration: none;
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+  background-color: #005082; 
+  color: white; 
+  text-decoration: none; 
 }
 
 .logo {
@@ -56,3 +66,5 @@ nav a {
   margin-right: 20px; 
 }
 </style>
+
+
