@@ -19,5 +19,6 @@ body {
 
 .main-content {
   margin-bottom: 200px; 
+  
 }
 </style>
