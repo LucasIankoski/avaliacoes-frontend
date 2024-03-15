@@ -18,6 +18,6 @@ body {
 }
 
 .main-content {
-  margin-top: 200px; 
+  margin-bottom: 200px; 
 }
 </style>
